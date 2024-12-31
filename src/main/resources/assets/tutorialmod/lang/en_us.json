@@ -1,6 +1,5 @@
 {
   "item.tutorialmod.sapphire": "Sapphire",
-  "item.tutorialmod.raw_sapphire": "Raw Sapphire",
-
-  "creativetab.tutorial": "Sapphire Tutorial Tab"
+  "item.tutorialmod.raw_sapphire":"Raw Sapphire",
+  "creativetab": "Tutorial"
 }

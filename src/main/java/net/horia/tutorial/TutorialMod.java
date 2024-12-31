@@ -47,7 +47,7 @@ public class TutorialMod
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.Sapphire);
             event.accept(ModItems.Raw_Sapphire);
         }
