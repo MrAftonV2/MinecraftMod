@@ -25,8 +25,7 @@ public class ModCreativeModTab{
                             output.accept(ModItems.Sapphire.get());
                             output.accept(ModItems.Raw_Sapphire.get());
                             output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
-
-                            output.accept(Items.ALLAY_SPAWN_EGG);
+                            output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
                     })
                     .build());
