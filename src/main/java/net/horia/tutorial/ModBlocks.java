@@ -4,7 +4,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ModBlocks{
+public class odBlocks{
     public static final DefferedRegister<Block> Blocks = 
         DefferedRegister.create(ForgeRegistries.BLOCKS, TutorialMod.Mod_ID);
     
