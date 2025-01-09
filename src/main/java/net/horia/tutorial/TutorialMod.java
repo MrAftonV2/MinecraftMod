@@ -1,5 +1,6 @@
 package net.horia.tutorial;
 
+import net.horia.tutorial.blocks.ModBlocks;
 import net.horia.tutorial.items.ModCreativeModTab;
 import net.horia.tutorial.items.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,7 @@ public class TutorialMod
 
         ModCreativeModTab.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

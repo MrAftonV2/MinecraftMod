@@ -1,6 +1,7 @@
 package net.horia.tutorial.items;
 
 import net.horia.tutorial.TutorialMod;
+import net.horia.tutorial.blocks.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,6 +24,7 @@ public class ModCreativeModTab{
                     .displayItems((itemDisplayParameters, output) -> {
                             output.accept(ModItems.Sapphire.get());
                             output.accept(ModItems.Raw_Sapphire.get());
+                            output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
 
                             output.accept(Items.ALLAY_SPAWN_EGG);
 
